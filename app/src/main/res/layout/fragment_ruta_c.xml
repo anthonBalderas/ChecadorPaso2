@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".RutaCFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero de Unidad: "
+            android:textColor="@color/letras"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edittext_unidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:inputType="number"
+            android:keepScreenOn="false"
+            android:singleLine="true"
+            android:textColor="@color/letras" />
+    </LinearLayout>
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/rutas_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorVerdebtn"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="center"
+        app:hintText="Click para seleccionar una ruta" />
+
+    <TextView
+        android:id="@+id/tvHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hora de registro.."
+        android:textColor="@color/letras" />
+
+    <Button
+        android:id="@+id/button_add2"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_alignTop="@+id/button_increase"
+        android:layout_alignBottom="@+id/button_increase"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_toEndOf="@+id/button_increase"
+        android:layout_toRightOf="@+id/button_increase"
+        android:background="@color/materialgreen"
+        android:text="Registrar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Lista de unidades C"
+        android:textColor="@color/letras"
+        android:textSize="19sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewC"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "785654476549",
+    "firebase_url": "https://my-applicationprueba.firebaseio.com",
+    "project_id": "my-applicationprueba",
+    "storage_bucket": "my-applicationprueba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785654476549:android:b273cbf2d6c643d691d16c",
+        "android_client_info": {
+          "package_name": "com.example.checadorpaso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785654476549-pnemkucgb3t593numm0pm3km5uji633l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo1Yk4ijazNWNSCmUxp3Ia-4XrtrCsoTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785654476549-pnemkucgb3t593numm0pm3km5uji633l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785654476549:android:e65cca388aa7ea7491d16c",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationprueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785654476549-1cl9j2jc6s7dogr32vqkfartvttfj9mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplicationprueba",
+            "certificate_hash": "df0d7d195406d52e638c8a3ee302280598987a80"
+          }
+        },
+        {
+          "client_id": "785654476549-pnemkucgb3t593numm0pm3km5uji633l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo1Yk4ijazNWNSCmUxp3Ia-4XrtrCsoTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785654476549-pnemkucgb3t593numm0pm3km5uji633l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
